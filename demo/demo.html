@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>fileDownload.js Demo</title>
+    <script src="jquery.min.js"></script>
+    <script src="../dist/fileDownload.min.js"></script>
+</head>
+<body>
+    <input id="fileFileDownload" type="button" value="test fileDownload" />
+</body>
+<script>
+    $("#fileFileDownload").click(function(e){
+        var url = '/fileDownload/demo/jquery.min.js';
+        var fileDownload = fD(url, '/fileDownload/demo/jquery.min.js');
+
+        // you can test blow
+        // IE Support   : (
+        //fileDownload.downloadByIframe();
+
+        // Other Support  : )
+        //fileDownload.downloadByCreateObjectURL();
+    });
+</script>
+</html>
