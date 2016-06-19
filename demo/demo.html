@@ -11,15 +11,18 @@
 </body>
 <script>
     $("#fileFileDownload").click(function(e){
-        var url = '/fileDownload/demo/jquery.min.js';
-        var fileDownload = fD(url, '/fileDownload/demo/jquery.min.js');
+        var url = '//code.jquery.com/jquery-3.0.0.min.js';
+        var fileName = 'jquery-3.0.0.min.js';
+        var fileDownload = fD(url, fileName);
+
+        alert('please remove "//" for test code in demo.html');
 
         // you can test blow
         // IE Support   : (
-        //fileDownload.downloadByIframe();
+        // fileDownload.downloadByIframe();
 
         // Other Support  : )
-        //fileDownload.downloadByCreateObjectURL();
+        // fileDownload.downloadByCreateObjectURL();
     });
 </script>
 </html>
