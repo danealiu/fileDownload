@@ -1,0 +1,24 @@
+{
+  "name": "filedownload",
+  "version": "1.0.0",
+  "description": "download a file without open a new window.",
+  "main": "src/fileDownload.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ppgs8903/fileDownload.git"
+  },
+  "keywords": [
+    "js",
+    "download",
+    "browser"
+  ],
+  "author": "jason tao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ppgs8903/fileDownload/issues"
+  },
+  "homepage": "https://github.com/ppgs8903/fileDownload#readme"
+}

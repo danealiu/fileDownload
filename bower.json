@@ -1,0 +1,22 @@
+{
+  "name": "filedownload",
+  "description": "download a file without open a new window.",
+  "main": "src/fileDownload.js",
+  "authors": [
+    "jason tao"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "js",
+    "download",
+    "browser"
+  ],
+  "homepage": "https://github.com/ppgs8903/fileDownload",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
